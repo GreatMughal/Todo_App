@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: white;
+  font-family: "Cabin";
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
