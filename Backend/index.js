@@ -15,7 +15,7 @@ dbConnection()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-const allowedOrigins = [""]
+const allowedOrigins = ["https://todo-app-mirza-todo.vercel.app"]
 app.use(cors({
     origin: function (origin, callback) {
         if (allowedOrigins.includes(origin)) {
